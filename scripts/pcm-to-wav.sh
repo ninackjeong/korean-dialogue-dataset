@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Script Name: pcm-to-wav.sh
+# Created by: Cheonkam Jeong(cheonkamjeong@arizona.edu)
+# Date: September 19, 2023
+# Description: This script performs a conversion task from pcm files to wav ones in a specific folder
+# Usage: ./pcm-to-wav.sh
+
 # Ensure that ffmpeg is installed
 if ! command -v ffmpeg &> /dev/null; then
     echo "ffmpeg is not installed. Please install ffmpeg and try again."
